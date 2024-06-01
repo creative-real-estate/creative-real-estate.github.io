@@ -31227,6 +31227,20 @@ video {
   content: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.hero {
+  height: 100vh;
+  background: url('media/HOME.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
